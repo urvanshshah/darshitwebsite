@@ -6,6 +6,56 @@
     <title>Shlock Windows - Premium Windows for Your Home</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .hero {
+            background: #f4f4f4;
+            padding: 50px 20px;
+        }
+        button {
+            background: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        section {
+            padding: 20px;
+        }
+        form input, form textarea {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 10px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -53,5 +103,11 @@
     <footer>
         <p>&copy; 2025 Shlock Windows. All rights reserved.</p>
     </footer>
+
+    <script>
+        function scrollToContact() {
+            document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
